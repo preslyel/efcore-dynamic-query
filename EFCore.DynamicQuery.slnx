@@ -1,0 +1,13 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/EFCore.DynamicQuery/EFCore.DynamicQuery.csproj" />
+    <Project Path="src/EFCore.DynamicQuery.SqlServer/EFCore.DynamicQuery.SqlServer.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/EFCore.DynamicQuery.Tests/EFCore.DynamicQuery.Tests.csproj" />
+    <Project Path="tests/EFCore.DynamicQuery.SqlServer.Tests/EFCore.DynamicQuery.SqlServer.Tests.csproj" />
+  </Folder>
+  <Folder Name="/samples/">
+    <Project Path="samples/EFCore.DynamicQuery.Sample.Api/EFCore.DynamicQuery.Sample.Api.csproj" />
+  </Folder>
+</Solution>

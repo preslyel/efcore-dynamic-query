@@ -1,0 +1,14 @@
+using System.Linq.Expressions;
+
+namespace EFCore.DynamicQuery.Internal;
+
+internal sealed class ParameterReplacerVisitor : ExpressionVisitor
+{
+    public HashSet<ParameterExpression> Parameters { get; } = [];
+
+    protected override Expression VisitParameter(ParameterExpression node)
+    {
+        Parameters.Add(node);
+        return base.VisitParameter(node);
+    }
+}
